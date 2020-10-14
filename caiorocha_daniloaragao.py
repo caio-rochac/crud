@@ -24,3 +24,6 @@ while opcao != -1:
         else:
             for i in range(len(alunos)):
                 print(alunos[i][1])
+				
+	if opcao == 2:
+		
