@@ -22,4 +22,5 @@ while opcao != -1:
         if len(alunos) == 0:
             print("Não há alunos cadastrados!")
         else:
-            
+            for i in range(len(alunos)):
+                print(alunos[i][1])
