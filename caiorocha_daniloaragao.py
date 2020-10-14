@@ -46,7 +46,11 @@ while opcao != -1:
 
 			for i in range(alunos):
 				if cpf == alunos[i][0]:
-
+					print("Nome: ", alunos[i][1])
+					print("Nota 1: ", alunos[i][2])
+					print("Nota 2: ", alunos[i][3])
+					print("Média: ", alunos[i][4])
+					print("Situação: ", alunos[i][5])
 					contagem -= 1
 
 			if contagem == len(alunos):
